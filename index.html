@@ -7,18 +7,23 @@
 				width:40%;
 				margin:1em auto;
 				font-size:18pt;
+			}
+			#poemContainer p {
+				margin:0;
 				line-height:1.5em;
 			}
 		</style>
 	</head>
 	<body>
 		<div id="poemContainer">
-			<p>Here is some text...</p>
+			<p>my poem</p>
 		</div>
 
 		<script>
-			var myP = $("<p></p>").text("A line of poem");
-			$("#poemContainer").append(myP);
+			$("#poemContainer").append($("<p></p>").text("i am"));
+			$("#poemContainer").append($("<p></p>").text("an edgy"));
+			$("#poemContainer").append($("<p></p>").text("teenage"));
+			$("#poemContainer").append($("<p></p>").text("girl"));
 		</script>
 	</body>
 </html>
